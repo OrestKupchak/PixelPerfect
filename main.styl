@@ -1,0 +1,123 @@
+/* 
+@import 'nib'
+@import 'fonts'
+global-reset()
+*/
+* 
+    margin 0
+    padding 0
+    list-style none
+    text-decoration none
+
+
+html
+    font-size 16px
+    color black
+    .page
+        width 1400px
+    .container
+        width 940px
+        margin auto
+        display flex
+    .top-bar
+        font-size 24px
+    .logo
+        font-family 'cubanoregular', Arial, sans-serif
+        color white
+        padding-left 44px
+        letter-spacing 3px
+    .main-header
+        background url('img/banner.jpg') no-repeat
+        padding-top 46px
+        height 560px
+        color white
+    .main-nav
+        padding-top 3px
+    .main-nav ul
+        display flex
+        li
+            padding-left 12px
+            padding-right 12px
+            font-size 18px
+    .banner
+        padding-top 220px
+        width 100%
+        text-align center
+        p
+            font-size 28px
+            padding-bottom 30px
+            margin-top -72px
+        h2 
+            font-size 66px
+            padding-top 2px
+            padding-bottom 66px
+
+        input[type='button']
+            background-color transparent
+            border 3px solid white
+            border-radius 3px
+            font-size 20px
+            color white
+            width 242px
+            height 68px
+
+            &:hover 
+                background-color transparent
+                font-weight bolder
+                color white
+                border 3px solid white
+                filter brightness(70%)
+                filter opacity(60%)    
+
+
+    .space-between
+        justify-content space-between
+     
+    .promo > .container
+        display flex
+        flex-direction column
+        padding-top 30px
+        background-color grey
+        
+
+        .promo-container.row2
+            background-color white
+            padding top 40px
+            padding-bottom 40px
+
+             .row-img img
+                padding-top 118px
+                padding-left 39px
+
+            h3
+                font-size 56px
+                padding 36px 0px 36px 10px
+
+            p
+                line-height 24px
+                padding-left 19px
+                padding-bottom 33px
+
+
+        .promo-container.row
+            display flex
+            flex-direction row
+            padding-top 40px
+
+            .row-text 
+                padding 0px 20px 20px 20px
+
+                h3
+                    font-size 56px
+                    padding 36px 0px 36px 10px
+
+                p
+                    line-height 24px
+                    padding-left 19px
+                    padding-bottom 33px
+
+
+            .row-img img
+                padding-top 53px
+                padding-left 15px
+

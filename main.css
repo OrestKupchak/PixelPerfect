@@ -1,0 +1,128 @@
+/* 
+@import 'nib'
+@import 'fonts'
+global-reset()
+*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  font-size: 16px;
+  color: #000;
+}
+html .page {
+  width: 1400px;
+}
+html .container {
+  width: 940px;
+  margin: auto;
+  display: flex;
+}
+html .top-bar {
+  font-size: 24px;
+}
+html .logo {
+  font-family: 'cubanoregular', Arial, sans-serif;
+  color: #fff;
+  padding-left: 44px;
+  letter-spacing: 3px;
+}
+html .main-header {
+  background: url("img/banner.jpg") no-repeat;
+  padding-top: 46px;
+  height: 560px;
+  color: #fff;
+}
+html .main-nav {
+  padding-top: 3px;
+}
+html .main-nav ul {
+  display: flex;
+}
+html .main-nav ul li {
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 18px;
+}
+html .banner {
+  padding-top: 220px;
+  width: 100%;
+  text-align: center;
+}
+html .banner p {
+  font-size: 28px;
+  padding-bottom: 30px;
+  margin-top: -72px;
+}
+html .banner h2 {
+  font-size: 66px;
+  padding-top: 2px;
+  padding-bottom: 66px;
+}
+html .banner input[type='button'] {
+  background-color: transparent;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  font-size: 20px;
+  color: #fff;
+  width: 242px;
+  height: 68px;
+}
+html .banner input[type='button']:hover {
+  background-color: transparent;
+  font-weight: bolder;
+  color: #fff;
+  border: 3px solid #fff;
+  filter: brightness(70%);
+  filter: opacity(60%);
+}
+html .space-between {
+  justify-content: space-between;
+}
+html .promo > .container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  background-color: #808080;
+}
+html .promo > .container .promo-container.row2 {
+  background-color: #fff;
+  padding: top 40px;
+}
+html .promo > .container .promo-container.row2 padding-bottom 40px .row-img img {
+  padding-top: 118px;
+  padding-left: 39px;
+}
+html .promo > .container .promo-container.row2 h3 {
+  font-size: 56px;
+  padding: 36px 0px 36px 10px;
+}
+html .promo > .container .promo-container.row2 p {
+  line-height: 24px;
+  padding-left: 19px;
+  padding-bottom: 33px;
+}
+html .promo > .container .promo-container.row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+}
+html .promo > .container .promo-container.row .row-text {
+  padding: 0px 20px 20px 20px;
+}
+html .promo > .container .promo-container.row .row-text h3 {
+  font-size: 56px;
+  padding: 36px 0px 36px 10px;
+}
+html .promo > .container .promo-container.row .row-text p {
+  line-height: 24px;
+  padding-left: 19px;
+  padding-bottom: 33px;
+}
+html .promo > .container .promo-container.row .row-img img {
+  padding-top: 53px;
+  padding-left: 15px;
+}
